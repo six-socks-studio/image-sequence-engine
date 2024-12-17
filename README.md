@@ -1,7 +1,5 @@
 # Image Sequence Scroll
 
-![Six Socks Studio](https://sixsocks.studio/assets/logo.svg)
-
 A high-performance scroll-based image sequence animation engine with progressive loading capabilities. Perfect for creating smooth scroll-driven animations and video-like experiences on the web.
 
 ## Features
