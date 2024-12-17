@@ -1,0 +1,59 @@
+{
+  "name": "@six-socks-studio/image-sequence-engine",
+  "version": "1.0.0",
+  "description": "A performant scroll-based image sequence animation engine",
+  "type": "module",
+  "main": "dist/image-sequence-engine.cjs.js",
+  "module": "dist/image-sequence-engine.esm.js",
+  "browser": "dist/image-sequence-engine.umd.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:lib": "tsc && vite build --config vite.config.ts",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "animation",
+    "scroll",
+    "image-sequence",
+    "canvas",
+    "six-socks-studio"
+  ],
+  "author": "Six Socks Studio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/six-socks-studio/image-sequence-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/six-socks-studio/image-sequence-engine/issues"
+  },
+  "homepage": "https://github.com/six-socks-studio/image-sequence-engine#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^22.10.2",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "rollup": "^4.9.6",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11"
+  },
+  "dependencies": {
+    "lenis": "^1.1.18"
+  }
+}
