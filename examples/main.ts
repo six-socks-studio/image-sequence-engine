@@ -1,7 +1,7 @@
 import { ImageSequenceEngine } from "../src/ImageSequenceEngine";
 import Lenis from "lenis";
 
-const baseUrl = "/sequence/";
+const baseUrl = "./sequence/";
 const imageUrls = Array.from(
   { length: 650 },
   (_, i) => `${baseUrl}frame_${String(i + 1).padStart(4, "0")}.jpg`
